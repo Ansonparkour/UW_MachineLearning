@@ -134,3 +134,4 @@ def EM_for_high_dimension(data, means, covs, weights, cov_smoothing=1e-5, maxite
     out = {'weights':weights,'means':mu,'covs':Sigma,'loglik':ll_trace,'resp':resp}
 
     return out
+# utilities
